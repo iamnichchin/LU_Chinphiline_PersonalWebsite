@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: rgb(246, 214, 193);
+    padding: 10px;
+}
+    
+h1 {
+    color: #4F4F4F;
+}
+
+h2 {
+    color: black;
+}
+    
+p {
+    color: #424140;
+}
+
+fieldset {
+    padding: 20px;
+    font-family: Arial, Verdana, sans-serif;
+    background-color: rgb(255, 102, 2);
+}
