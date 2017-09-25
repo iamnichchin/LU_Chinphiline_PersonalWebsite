@@ -22,9 +22,9 @@
     font-style: normal;
 }
 
-#up {
+#choices {
     display: inline;
-    margin-right: 10px;
+    margin-inline-start: 10px;
 }
 
 
@@ -62,6 +62,7 @@ h2 {
     
 p {
     color: #424140;
+
 }
 
 fieldset {
@@ -70,5 +71,12 @@ fieldset {
     background-color: rgb(180, 180, 180);
     opacity: 0.5; 
     font-weight: bold;
-
 }
+
+ legend {
+    background-color: #7A7A7A;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    padding: 5px;
+    text-align: center;
+ }
