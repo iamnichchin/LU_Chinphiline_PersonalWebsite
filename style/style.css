@@ -69,6 +69,10 @@ body {
     max-width: 300px;
     margin: 0 auto;
     width: 90%;
+    padding:10px;
+    border:5px solid lightgoldenrodyellow;
+    background-color: #E7CFA0;
+    
 }
 
 .personal_info .educ {
