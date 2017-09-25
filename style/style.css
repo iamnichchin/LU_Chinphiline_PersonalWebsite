@@ -44,7 +44,12 @@ body {
 }
 
 #choices {
- 
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    opacity: 0.5;
+    font-family: first;
+    font-weight: bold;
 }
 
 
