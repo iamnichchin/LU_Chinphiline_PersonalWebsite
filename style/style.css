@@ -22,48 +22,39 @@
     font-style: normal;
 }
 
-#choices {
-    display: inline;
-    margin-inline-start: 10px;
-}
-
-
 body {
-    font-family: 'second';
-    background-color: rgb(255, 255, 255);
-    padding: 100px;
+    background-color: rgb(255, 139, 139);
+    padding: 50px;
 }
    
-
-#orig_body {
-    width: 1000px;
-    columns: 3;
-    float: left;
-    margin: 5px;
-    padding: 5px;
-    background-color: #efefef;}
+#logo {
+    display:block;
+    max-width: 300px;
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;    
 }
+
+#note {
+    font-family: "third";
+    font-size: 15pt;
+}
+
+#choices {
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    display: inline;
+    margin: 0px 3px;
+}
+
 
 #logo {
     width: 960px;
-    margin: 0 auto;}
+    margin: 0 auto;
 }
 
-h1 {
-    color: #4F4F4F;
-   }
-
-
-h2 {
-    color: black;
-    font-family: 'fourth';
-    font-size: 30pt;
-}
-    
-p {
-    color: #424140;
-
-}
 
 fieldset {
     padding: 20px;
@@ -73,7 +64,7 @@ fieldset {
     font-weight: bold;
 }
 
- legend {
+legend {
     background-color: #7A7A7A;
     border: 1px solid #dcdcdc;
     border-radius: 5px;
