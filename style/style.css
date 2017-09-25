@@ -1,3 +1,26 @@
+@font-face {
+    font-family: 'first';
+    src: url('glamourbrush-regular.otf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'second';
+    src: url('roomfer.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'third';
+    src: url('ChinChan.ttf');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fourth';
+    src: url('StackYard.ttf');
+    font-style: normal;
+}
 
 #up {
     display: inline;
