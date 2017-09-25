@@ -23,14 +23,17 @@
 }
 
 body {
-    background-color: rgb(210, 210, 210);
+    background-color: rgb(255, 255, 255);
     padding: 20px;
 }
 
 
 #orig_body{
     columns: 2;
+    padding: 40px;
 }
+
+
 
 #logo {
     display:block;
@@ -39,12 +42,12 @@ body {
     width: 90%;
 }
 
+
 #note {
     font-family: "third";
     font-weight: bold;
     font-size: 10px;
-    background-color: #F3E6CD;
-    opacity: 0.5;
+
 
     width: 570px;
     padding: 15px;
@@ -55,31 +58,24 @@ body {
 }
 
 #whole {
-    border: 1px solid #BA8787;
+    border: 1px solid #FFFFFF;
     padding: 20px;
-    background-color: wheat;
-}
+} 
+
 
 #choices {
-    text-align: center;
-    
-    padding: 20px;
-    opacity: 0.5;
+    padding: 2px;
     font-family: "second";
     font-size: 20pt;
-    font-weight: bold;
-    word-spacing: 20px;
-    
+    word-spacing: 20px;    
+    text-align: center;
 }
 
-#choices:a:hover { 
-    background-color: #000000;
+#socialmedia {
+    padding: 2px;
+    word-spacing: 20px; 
+    text-align: center;   
 }
-
-#choices:a:active { 
-    background-color: #ED6A6A;
-}
-
 
 
 .intro_pic{
@@ -88,8 +84,8 @@ body {
     margin: 0 auto;
     width: 90%;
     padding:10px;
-    border:5px solid lightgoldenrodyellow;
-    background-color: #E7CFA0;
+    border:5px solid #F5F5F5;
+    background-color: #6A6968;
     
 }
 
@@ -99,14 +95,19 @@ body {
     margin: 10px;
 }
 
+h2 {
+    text-align: center;
+    font-family: "third";
+ }
+
 fieldset {
     padding: 20px;
-    font-family: 'third';
     background-color: rgb(180, 180, 180);
     opacity: 0.5; 
-    font-weight: bold;
 }
 
-legend {
-    text-align: center;
- }
+fieldset.p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
