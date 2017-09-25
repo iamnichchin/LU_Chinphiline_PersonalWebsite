@@ -59,10 +59,22 @@ body {
     background-color: white;
     padding: 20px;
     opacity: 0.5;
-    font-family: first;
+    font-family: "second";
+    font-size: 20pt;
     font-weight: bold;
     word-spacing: 20px;
+    
 }
+
+#choices:a:hover { 
+    background-color: #000000;
+}
+
+#choices:a:active { 
+    background-color: #ED6A6A;
+}
+
+
 
 .intro_pic{
     display:block;
@@ -90,6 +102,5 @@ fieldset {
 }
 
 legend {
-
     text-align: center;
  }
