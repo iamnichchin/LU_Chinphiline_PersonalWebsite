@@ -58,8 +58,8 @@ body {
 }
 
 #whole {
-    border: 1px solid #FFFFFF;
-    padding: 20px;
+    border: 1px solid #000000;
+    padding: 20pt;
 } 
 
 
@@ -98,6 +98,7 @@ body {
 h2 {
     text-align: center;
     font-family: "third";
+    font-weight: bolder;
  }
 
 fieldset {
@@ -111,3 +112,15 @@ fieldset.p {
 }
 
 
+#drama{
+    padding: 30pt;
+    padding-top: 10pt;
+    background-color: #C8C2BD;
+    opacity: 0.5;
+    border: 2px solid #000;
+    
+}
+
+
+
+    
