@@ -24,29 +24,27 @@
 
 body {
     background-color: rgb(255, 139, 139);
-    padding: 50px;
+    padding: 20px;
 }
    
 #logo {
     display:block;
     max-width: 300px;
     margin: 0 auto;
-    width: 200px;
-    height: 100px;    
+    width: 90%;
 }
 
 #note {
     font-family: "third";
-    font-size: 15pt;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: wheat;
+    opacity: 0.5;
+    padding: 10pt;
 }
 
 #choices {
-    width: 570px;
-    padding: 15px;
-    margin: 0px auto 0px auto;
-    text-align: center;
-    display: inline;
-    margin: 0px 3px;
+ 
 }
 
 
