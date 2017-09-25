@@ -26,7 +26,12 @@ body {
     background-color: rgb(255, 139, 139);
     padding: 20px;
 }
-   
+
+
+#orig_body{
+    columns: 2;
+}
+
 #logo {
     display:block;
     max-width: 300px;
@@ -43,6 +48,12 @@ body {
     padding: 10pt;
 }
 
+#whole {
+    border: 1px solid #BA8787;
+    padding: 20px;
+    background-color: wheat;
+}
+
 #choices {
     text-align: center;
     background-color: white;
@@ -53,12 +64,18 @@ body {
     word-spacing: 20px;
 }
 
-
-#logo {
-    width: 960px;
+.intro_pic{
+    display:block;
+    max-width: 300px;
     margin: 0 auto;
+    width: 90%;
 }
 
+.personal_info .educ {
+    float: left;
+    width: 620px;
+    margin: 10px;
+}
 
 fieldset {
     padding: 20px;
