@@ -22,8 +22,11 @@
     font-style: normal;
 }
 
+p{
+    color: black;
+}
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #efdac9;
     padding: 30pt;
 }
 
@@ -74,12 +77,12 @@ body {
     margin: 0 auto;
     width: 90%;
     padding:10px;
-    border:5px solid #F5F5F5;
-    background-color: #6A6968;
+    border:5px solid #e5b4b7;
+    background-color: #f8d6d7;
     float: right;
+    border-radius: 10px;
 
 }
-
 
 
 .personal_info{
@@ -94,12 +97,12 @@ h2 {
 
 fieldset {
     padding: 20px;
-    background-color: rgb(180, 180, 180);
+    background-color: #e5b4b7;
     opacity: 0.5; 
 }
 
 legend{
-    background-color: #efefef;
+    background-color: #f8d6d7;
     border-radius: 10px;
     padding: 5px 5px;
 }
@@ -112,10 +115,10 @@ p.fieldset {
 #drama{
     padding: 30pt;
     padding-top: 10pt;
-    background-color: #C8C2BD;
+    background-color: #b4b4b4;
     opacity: 0.5;
     border: 2px solid #000;
-    
+    border-radius: 10px;
 }
 
 
