@@ -22,11 +22,10 @@
     font-style: normal;
 }
 
-p{
-    color: black;
-}
+
+
 body {
-    background-color: #efdac9;
+    background-color: #F6F1ED;
     padding: 30pt;
 }
 
@@ -43,7 +42,7 @@ body {
     font-family: "third";
     font-weight: bold;
     font-size: 10px;
-
+    background-color: #F3CAD3;
 
     width: 570px;
     padding: 15px;
@@ -77,8 +76,8 @@ body {
     margin: 0 auto;
     width: 90%;
     padding:10px;
-    border:5px solid #e5b4b7;
-    background-color: #f8d6d7;
+    border:5px solid #D2B8BA;
+    background-color: #FDEAEA;
     float: right;
     border-radius: 10px;
 
@@ -97,12 +96,12 @@ h2 {
 
 fieldset {
     padding: 20px;
-    background-color: #e5b4b7;
+    background-color: #FFD0DC;
     opacity: 0.5; 
 }
 
 legend{
-    background-color: #f8d6d7;
+    background-color: #F4E0E1;
     border-radius: 10px;
     padding: 5px 5px;
 }
@@ -115,9 +114,9 @@ p.fieldset {
 #drama{
     padding: 30pt;
     padding-top: 10pt;
-    background-color: #b4b4b4;
+    background-color: #FFD0DC;
     opacity: 0.5;
-    border: 2px solid #000;
+    border: 2px solid #D89C9C;
     border-radius: 10px;
 }
 
