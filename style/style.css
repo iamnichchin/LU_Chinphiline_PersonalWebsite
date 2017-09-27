@@ -24,15 +24,8 @@
 
 body {
     background-color: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 30pt;
 }
-
-
-#orig_body{
-    columns: 2;
-    padding: 40px;
-}
-
 
 
 #logo {
@@ -54,20 +47,6 @@ body {
     margin: 0px auto 0px auto;
     border-top: 2px solid #000;
     border-bottom: 1px solid #000;
-    text-align: center;}
-}
-
-#whole {
-    border: 1px solid #000000;
-    padding: 20pt;
-} 
-
-
-#choices {
-    padding: 2px;
-    font-family: "second";
-    font-size: 20pt;
-    word-spacing: 20px;    
     text-align: center;
 }
 
@@ -78,21 +57,33 @@ body {
 }
 
 
-.intro_pic{
-    display:block;
+
+#choices {
+    padding: 2px;
+    font-family: "second";
+    font-size: 20pt;
+    word-spacing: 20px;    
+    text-align: center;
+}
+
+
+
+
+#intro_pic{
     max-width: 300px;
     margin: 0 auto;
     width: 90%;
     padding:10px;
     border:5px solid #F5F5F5;
     background-color: #6A6968;
-    
+    float: right;
+
 }
 
-.personal_info .educ {
-    float: left;
-    width: 620px;
-    margin: 10px;
+
+
+.personal_info{
+    max-width: 520pt;
 }
 
 h2 {
@@ -107,7 +98,13 @@ fieldset {
     opacity: 0.5; 
 }
 
-fieldset.p {
+legend{
+    background-color: #efefef;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+p.fieldset {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
