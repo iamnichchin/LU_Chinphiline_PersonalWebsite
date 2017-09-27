@@ -64,11 +64,25 @@ body {
     padding: 2px;
     font-family: "second";
     font-size: 20pt;
-    word-spacing: 20px;    
+    word-spacing: 30px;    
     text-align: center;
 }
 
-
+a:link {
+    color: deeppink;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    background-color: pink;
+    text-decoration: bold;
+}
+a:active {
+    color: darkcyan;
+    background-color: pink;
+}
 
 
 #intro_pic{
