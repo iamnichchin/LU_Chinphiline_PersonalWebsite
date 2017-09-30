@@ -26,15 +26,19 @@
 
 body {
     background-color: #F6F1ED;
-    padding: 30pt;
+    padding: 10pt 50pt 10pt 50pt;
 }
 
+#body1{
+    border: 10px 20px 10px 20px;
+    
+}
 
 #logo {
     display:block;
     max-width: 300px;
     margin: 0 auto;
-    width: 90%;
+    border-left-width: 90%;
 
 }
 
@@ -87,6 +91,8 @@ a:active {
 
 
 #intro_pic{
+    position: relative;
+    float: left;
     max-width: 300px;
     margin: 0 auto;
     width: 90%;
@@ -100,7 +106,7 @@ a:active {
 
 
 .personal_info{
-    max-width: 520pt;
+    width: 650pt;
 }
 
 h2,h4 {
@@ -115,7 +121,7 @@ fieldset {
     opacity: 0.5; 
 }
 
-legend{
+legend.educ legend.achieve legend.talent legend.facts{
     background-color: #F4E0E1;
     border-radius: 10px;
     padding: 5px 5px;
